@@ -10,8 +10,7 @@ import os
 import glob
 import re
 
-# path= '/media/arma/DATA/S-Ehsan/Automate_sMD/HIV_cocrystal_inhibitors/prepared_molecules/'
-path= 'C:/Users/ehsan/Desktop/'
+path= 'path to all pdb files'
 os.chdir(path)
 files= glob.glob('*.pdb')
 
